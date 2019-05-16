@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body class="jumbotron">
+        <center>
+        <h1 id="title">BlackJack</h1>
+        <h4>by Aditya Dhage</h4>
+        <div style="font-weight: bolder; width: 80%;">
+            <hr>
+            <span id="score-card" class="btn btn-warning disabled" style="font-size: 20px;">| Dealer : 0 | Player : 0 |</span>
+            &emsp;<button id="reset-button" class="btn btn-primary" style="font-size: 20px;">Reset Game</button>
+            <hr>
+        </div>
+        
+        <p id="text-area" style="font-weight :bolder;">Welcome to Blackjack!</p>
+        
+        <div class="card text-white bg-primary mb-3" style="max-width: 80%;" id="dealer-card">
+            <div class="card-header" style="font-size: 20px; font-weight: bolder;" id="d-score">Dealer :</div>
+            <div class="card-body">
+                <span id="dealer-space"></span><span id="dealer-space-img"></span>
+            </div>
+        </div>
+        
+        <div class="card text-white bg-success mb-3" style="max-width: 80%;" id="player-card">
+            <div class="card-header" style="font-size: 20px; font-weight: bolder;" id="p-score">Player :</div>
+            <div class="card-body">
+                <span id="player-space"></span><span id="player-space-img"></span>
+            </div>
+        </div>
+
+        
+        <hr id="hr-line"></hr>
+        <span id="win-msg" class="badge badge-info" style="font-size: 20px; width: 80%;"></span>
+        <hr>
+        <button id="new-game-button" class="btn btn-success">New Game!</button>
+        <button id="hit-button" class="btn btn-info">Hit!</button>
+        <button id="stay-button" class="btn btn-warning">Stay</button>
+        
+        <script src="main.js"></script>
+    </center>
+    </body>
+    
+</html>
