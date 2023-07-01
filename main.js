@@ -376,7 +376,8 @@ function getCardImgPath(card)
 
     let num = "0";
     let s = (card.suit).substring(0,1);
-    let path = "C:\\Users\\adityad\\VisualStudio\\blackjack\\PNG\\";
+    //let path = "C:\\Users\\adityad\\VisualStudio\\blackjack\\PNG\\";
+    let path = "PNG/";
     if(card.value !== "Ace" && card.value !== "King" &&
         card.value !== "Queen" && card.value !== "Jack")
     {
